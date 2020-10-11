@@ -13,7 +13,7 @@ cloud:
 aws:
   paramstore:
     region: ${cloud.aws.region.static}
-    name: sample
+    default-context: sample
 
 logging:
   level:
