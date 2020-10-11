@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:33306/sample
-    username: docker
-    password: docker
+    url:
+    username:
+    password:
 cloud:
   aws:
     stack:
