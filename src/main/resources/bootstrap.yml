@@ -14,3 +14,10 @@ aws:
   paramstore:
     region: ${cloud.aws.region.static}
     name: sample
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
