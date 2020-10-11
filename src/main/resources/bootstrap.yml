@@ -10,8 +10,7 @@ cloud:
     region:
       auto: false
       static: ap-northeast-1
-    credentials:
-      profile-name: develop-ruchitate
 aws:
   paramstore:
-    enabled: false
+    region: ${cloud.aws.region.static}
+    name: sample
