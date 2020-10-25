@@ -1,4 +1,7 @@
 # Spring Boot with AWS System Manager Parameter Store
+<a href="https://trackgit.com">
+<img src="https://sfy.cx/u/xdg" alt="trackgit-views" />
+</a>
 
 ## Requires
 - .aws/credentials
